@@ -1,0 +1,123 @@
+* {
+  margin: none;
+  border: none;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-image: linear-gradient(90deg, #ffcdb2, #ffb4a2);
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  text-decoration: underline;
+  color: black;
+}
+
+header h2 {
+  font-family: "Sansita Swashed", cursive;
+  font-size: 5rem;
+}
+
+.search-form {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.search-form label {
+  font-size: 3rem;
+  padding: 0.5rem;
+}
+
+.search-form input {
+  padding: 0.5rem;
+  font-size: 3rem;
+  width: 100%;
+  border: none;
+  border: 2px solid black;
+}
+
+.submit-btn {
+  border: none;
+  font-size: 2rem;
+  padding: 1.25rem;
+  background: black;
+  color: white;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 30vh;
+}
+
+.results {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+}
+
+.anime-suggestion {
+  display: flex;
+  align-items: center;
+  color: black;
+  margin: 4rem;
+  color: black;
+}
+
+.anime-suggestion div {
+  padding: 2rem;
+}
+
+.anime-suggestion h2 {
+  font-family: "Sansita Swashed", cursive;
+  font-size: 2.5rem;
+  padding-bottom: 2rem;
+}
+
+.anime-suggestion p {
+  font-size: 1.5rem;
+}
+
+.nav-buttons {
+  min-height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.more {
+  padding: 2rem 5rem;
+  font-size: 2rem;
+  background: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.up {
+  padding: 2rem 2rem;
+  margin: 0rem 2rem;
+  font-size: 2rem;
+  color: white;
+  background: black;
+  border: none;
+  cursor: pointer;
+}
+
+.up:hover {
+  background: rgba(117, 116, 116, 0.705);
+}
+
+.more:hover {
+  background: rgba(117, 116, 116, 0.705);
+}
